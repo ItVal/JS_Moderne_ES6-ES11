@@ -14,4 +14,4 @@ constVariable = 50 //ici la vaelur de constVariable ne changera pas et çava gé
 
 
 //avec le mot clé var (je vous présente ce mot clé juste à titre d'information car on ne l'utilise plus). utuliser pour avoir accès à la valeur de cette variable partout dans votre fichier js
-var myVariable = 'Admin'
+var myVariable = 'Admin';
