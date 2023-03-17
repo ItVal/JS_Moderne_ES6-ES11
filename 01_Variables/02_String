@@ -5,5 +5,10 @@ console.log('salut le monde') //vous pouvez utiliser soit double cote, soit un s
 
 //avec une declaration de variable
 let nom = 'Valentin'
-console.log(nom)
+console.log(nom) //afichage sur le console
 
+//concatenation de strings
+let name = 'Nasibu';
+let firstname = 'jonas';
+let allNames = name + '' +firstname  
+console.log(allNames); //afichage sur le console
