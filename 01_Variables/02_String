@@ -1,0 +1,5 @@
+//le type de données string (chaine de caractères)
+
+//sans declaration d'une variable
+console.log('salut le monde') //vous pouvez utiliser soit double cote, soit un seul cote
+
