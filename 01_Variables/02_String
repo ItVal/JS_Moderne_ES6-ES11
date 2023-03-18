@@ -18,3 +18,8 @@ console.log (allNames[1]); //afichage sur la console "a"
 
 //obtenir le nombre de caractère que contient un string
 console.log (allNames.length); //afichage sur la console "12"
+
+//méthode sans arguments ou paramètre
+console.log (allNames.toUpperCase()); //afichage sur la console "le noms en majuscule"
+console.log (allNames.toLowerCase()); //afichage sur la console "le noms en miniscule"
+
