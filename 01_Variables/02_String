@@ -14,4 +14,7 @@ let allNames = name + '' +firstname
 console.log(allNames); //afichage sur la console "Nasibu jonas"
 
 //obtenir un caractère d'un string via sa position
-console.log (allNames[1]); //afichage sur la console "l"
+console.log (allNames[1]); //afichage sur la console "a"
+
+//obtenir le nombre de caractère que contient un string
+console.log (allNames.length); //afichage sur la console "12"
