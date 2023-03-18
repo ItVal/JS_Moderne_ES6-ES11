@@ -23,3 +23,9 @@ console.log (allNames.length); //afichage sur la console "12"
 console.log (allNames.toUpperCase()); //afichage sur la console "le noms en majuscule"
 console.log (allNames.toLowerCase()); //afichage sur la console "le noms en miniscule"
 
+
+//méthode avec arguments ou paramètre
+console.log (allNames.indexOf('i')); //afichage sur la console "3, qui est la position de i"
+console.log (allNames.slice(0, 4)); //afichage sur la console "le string se trouvant entre l'indice 0 et 4"
+console.log (allNames.replace("N", "V")); //afichage sur la console "Vasibu à la place de Nasibu car on a remplacer N par V"
+
