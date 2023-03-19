@@ -10,7 +10,7 @@ console.log(nom) //afichage sur la console "Valentin"
 //concatenation de strings
 let name = 'Nasibu';
 let firstname = 'jonas';
-let allNames = name + '' +firstname  
+let allNames = name + ' ' +firstname  
 console.log(allNames); //afichage sur la console "Nasibu jonas"
 
 //obtenir un caractère d'un string via sa position
