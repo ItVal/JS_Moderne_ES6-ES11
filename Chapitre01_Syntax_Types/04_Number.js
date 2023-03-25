@@ -1,8 +1,8 @@
 //Type number
 let nombreEntier = 10;
 let nombreDecimal = 10.78;
-console.log(nombreEntier);
 console.log(nombreDecimal);
+console.log(typeof nombreEntier);
 
 //concatenation de deux nombre
 console.log(nombreEntier + " , " + nombreDecimal);
@@ -35,3 +35,7 @@ nombreEntier++;
 console.log(nombreEntier);
 nombreEntier--;
 console.log(nombreEntier);
+
+//NaN : is not a number
+let isNaN = 'val nas ' / nombreEntier ;
+console.log(isNaN);
