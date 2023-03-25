@@ -19,3 +19,11 @@ console.log(soustraction);
 const a = 2;
 let division = nombreDecimal / a;
 console.log(division);
+
+//multiplication
+let multiplication = nombreEntier * nombreDecimal;
+console.log(multiplication);
+
+//puissance 
+let puissance = nombreEntier ** 2;
+console.log(puissance);
