@@ -10,3 +10,7 @@ console.log(nombreEntier + " , " + nombreDecimal);
 //addition 
 let total = nombreEntier + nombreDecimal ;
 console.log(total);
+
+//soustraction
+let soustraction = nombreDecimal - nombreEntier;
+console.log(soustraction);
