@@ -6,3 +6,7 @@ console.log(nombreDecimal);
 
 //concatenation de deux nombre
 console.log(nombreEntier + " , " + nombreDecimal);
+
+//addition 
+let total = nombreEntier + nombreDecimal ;
+console.log(total);
