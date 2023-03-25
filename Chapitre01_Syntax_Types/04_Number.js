@@ -9,10 +9,12 @@ console.log(nombreEntier + " , " + nombreDecimal);
 
 //addition
 let total = nombreEntier + nombreDecimal;
+total += 5
 console.log(total);
 
 //soustraction
 let soustraction = nombreDecimal - nombreEntier;
+soustraction -= 1
 console.log(soustraction);
 
 //division
@@ -24,6 +26,12 @@ console.log(division);
 let multiplication = nombreEntier * nombreDecimal;
 console.log(multiplication);
 
-//puissance 
+//puissance
 let puissance = nombreEntier ** 2;
 console.log(puissance);
+
+//incrementation et decrementation
+nombreEntier++;
+console.log(nombreEntier);
+nombreEntier--;
+console.log(nombreEntier);
