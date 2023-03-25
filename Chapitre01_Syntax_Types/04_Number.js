@@ -4,4 +4,5 @@ let nombreDecimal = 10.78;
 console.log(nombreEntier);
 console.log(nombreDecimal);
 
-//
+//concatenation de deux nombre
+console.log(nombreEntier + " , " + nombreDecimal);
