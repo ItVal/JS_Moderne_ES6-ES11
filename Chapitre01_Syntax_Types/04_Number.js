@@ -4,7 +4,7 @@ let nombreDecimal = 10.78;
 console.log(nombreDecimal);
 console.log(typeof nombreEntier);
 
-//concatenation de deux nombre
+//concatenation de deux variable du type number
 console.log(nombreEntier + " , " + nombreDecimal);
 
 //addition
@@ -39,3 +39,7 @@ console.log(nombreEntier);
 //NaN : is not a number
 let isNaN = 'val nas ' / nombreEntier ;
 console.log(isNaN);
+
+//concatenation entre string et variable
+let myConcatenation = "hello, je suis un nombre, " + nombreEntier;
+console.log(myConcatenation);
