@@ -26,7 +26,9 @@ console.log(age < 28); //false
 //inferieur ou egal
 console.log(age <= 28); //true
 
-//comparaison non strict peut nous trompé en js
+//comparaison non strict peut nous trompé en js (deux signes d'égalité)
 console.log(age == '28'); //true or ça number 28 est différent du string '28'
 
+//comparaison strict peut nous trompé en js (trois signes d'égalité)
+console.log(age === '28'); //false maintenant c'est okay
 
