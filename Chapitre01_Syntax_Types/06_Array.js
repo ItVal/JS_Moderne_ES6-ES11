@@ -8,3 +8,7 @@ console.log(tab.length);
 //tableau aléatoire (tableau contenu les trings et les nombres)
 const myTableau = [1, 10, 'Val', 12, 'Erick']
 console.log(myTableau[2]);
+
+//quelques méthodes
+const noms = ['Nasibu', 'Valentin', 'Jonas'];
+console.log(noms.join('-')); //pour joindre les éléments du tableau
