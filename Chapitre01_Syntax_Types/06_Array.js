@@ -18,3 +18,4 @@ console.log(noms.push('NVJ')); //pour ajouter un élt dans un tableau (à la fin
 console.log(noms);
 console.log(noms.pop('NVJ')); //pour supprimer un élt dans un tableau (à la fin)
 console.log(noms);
+console.log(noms.length); //pour voir la longeur d'un tableau
