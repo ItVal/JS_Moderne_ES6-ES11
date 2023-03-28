@@ -11,4 +11,5 @@ console.log(myTableau[2]);
 
 //quelques méthodes
 const noms = ['Nasibu', 'Valentin', 'Jonas'];
-console.log(noms.join('-')); //pour joindre les éléments du tableau
+// console.log(noms.join('-')); //pour joindre les éléments du tableau
+console.log(noms.indexOf('Jonas')); //pour joindre les éléments du tableau
