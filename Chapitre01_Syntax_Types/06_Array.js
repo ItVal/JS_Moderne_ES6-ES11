@@ -5,3 +5,6 @@ console.log(arrays[3]);
 const tab = [1, 10, 90] //tableau de number
 console.log(tab.length);
 
+//tableau aléatoire (tableau contenu les trings et les nombres)
+const myTableau = [1, 10, 'Val', 12, 'Erick']
+console.log(myTableau[2]);
