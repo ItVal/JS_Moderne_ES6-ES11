@@ -12,4 +12,7 @@ console.log(myTableau[2]);
 //quelques méthodes
 const noms = ['Nasibu', 'Valentin', 'Jonas'];
 // console.log(noms.join('-')); //pour joindre les éléments du tableau
-console.log(noms.indexOf('Jonas')); //pour joindre les éléments du tableau
+// console.log(noms.indexOf('Jonas')); //pour voir l'indice d'un élement du tableau
+// console.log(noms.concat(['Mirelle', 'Angella'])); //pour concatener plusieurs élt dans un tableau
+console.log(noms.push('NVJ')); //pour ajouter un élt dans un tableau (à la fin)
+console.log(noms);
