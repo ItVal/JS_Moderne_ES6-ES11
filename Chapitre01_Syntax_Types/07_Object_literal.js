@@ -9,3 +9,7 @@ const myObj = {
 //manupilation d'un object
 //affichage objet
 console.log(myObj);
+
+//Acceder aux éléments d'un object : il existe deux façons : 
+//notation dot (.)
+console.log(myObj.noms);
