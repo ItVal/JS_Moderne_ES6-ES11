@@ -3,7 +3,29 @@ const myObj = {
     noms: "Valentin",
     age: 12,
     location: "Congo-Kinshasa",
-    contact: "+243891005317"
+    contact: "+243891005317",
+    blogs: [
+        {
+            title: 'Débuter avec JS',
+            likes: 100
+        },
+        {
+            title: 'Débuter avec HTML',
+            likes: 10
+        },
+        {
+            title: 'Débuter avec CSS',
+            likes: 300
+        },
+    ],
+    //methode d'instance
+    afficheBlogs(){
+        console.log('voici les oeuvres de notre utilisation :');
+        //affichage des éléments de l'attribut blog
+        this.blogs.forEach(blog => {
+            console.log(blog.title, blog.likes);
+        })
+    }
 };
 
 //manupilation d'un object
