@@ -41,3 +41,6 @@ console.log(myObj.age = 15);
 //accès via les crochets.
 console.log(myObj["contact"]);
 console.log(myObj["contact"]= "valnas@gmail.com");
+
+//affiche de la methode d'instance de notre tableau
+console.log(myObj.afficheBlogs());
