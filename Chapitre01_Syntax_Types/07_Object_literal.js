@@ -13,3 +13,5 @@ console.log(myObj);
 //Acceder aux éléments d'un object : il existe deux façons : 
 //notation dot (.)
 console.log(myObj.noms);
+//réafection d'un attribut à un éléments de l'objet
+console.log(myObj.age = 15);
