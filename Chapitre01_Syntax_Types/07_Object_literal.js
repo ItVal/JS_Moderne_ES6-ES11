@@ -15,3 +15,7 @@ console.log(myObj);
 console.log(myObj.noms);
 //réafection d'un attribut à un éléments de l'objet
 console.log(myObj.age = 15);
+
+//accès via les crochets.
+console.log(myObj["contact"]);
+console.log(myObj["contact"]= "valnas@gmail.com");
