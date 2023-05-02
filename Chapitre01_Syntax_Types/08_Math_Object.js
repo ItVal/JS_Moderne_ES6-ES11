@@ -17,3 +17,7 @@ console.log(Math.floor(myVaria));
 //Génération d'un nombre aléatoire (entre 0 et 1) avec random()
 const random = Math.random();
 console.log(random);
+
+//Personaliser le nombre aléatoire à générer avec (ex 0 et 100)
+const randomPersonal = Math.round(random * 100);
+console.log(randomPersonal);
