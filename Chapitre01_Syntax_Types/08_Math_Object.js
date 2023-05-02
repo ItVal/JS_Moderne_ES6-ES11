@@ -14,4 +14,6 @@ console.log(Math.ceil(myVaria));
 //Conversion d'un nombre decimal en entier avec floor()
 console.log(Math.floor(myVaria));
 
-//
+//Génération d'un nombre aléatoire (entre 0 et 1) avec random()
+const random = Math.random();
+console.log(random);
