@@ -10,3 +10,8 @@ console.log(Math.round(myVaria));
 
 //Méthode d'arrondissement en eccès ceil()
 console.log(Math.ceil(myVaria));
+
+//Conversion d'un nombre decimal en entier avec floor()
+console.log(Math.floor(myVaria));
+
+//
