@@ -17,3 +17,11 @@ while( j < myList.length){
     j++
 }
 
+//La boucle do while
+let y = 0;
+
+do {
+    console.log('La valeur de y est:', y); //ici on exécute une blocque de code avant de vérifier la condition
+    y++;
+}while(y<5)
+
