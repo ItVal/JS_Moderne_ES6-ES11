@@ -19,6 +19,7 @@ const myParamsFunction = function(x, y) {
 }
 // pour une function avec des paramètre, il faut passé les valeurs de paramètre lors de son appel
 myParamsFunction(4, 10);
+myParamsFunction(25, 25); //l'avant d'une function avec le paramètre, en est qu'on peut appellé notre fonction plusieurs fois avec plusieurs paramètres(ou arguments) différents.
 
 //fonction qui retourne une valeur
 const myReturntFunction = function(a, b, c){
@@ -29,3 +30,12 @@ const myReturntFunction = function(a, b, c){
 //appellons la en conservant cette valeur dans un autre valeur pour nous aidé de l'utiliser plus tard (l'affiché par exemple) 
 const myResult = myReturntFunction(12, 13, 14);
 console.log(myResult); //affichage de la valeur que nous retourne notre function.
+
+//Fonction avec paramètre par defaut
+const myDefaultParamsFunction = function(i, j=5) { //j'ai déjà initialisé mon deuxième paramètre avec une valeur par defaut.
+    const produit = i * j;
+    return produit;
+}
+//Lors de son appel, on aura juste bésoin d'entréer la valeur d'un seul paramètre car l'autre a déjà une valeur par defaut
+const res = myDefaultParamsFunction(40);
+console.log(res);
