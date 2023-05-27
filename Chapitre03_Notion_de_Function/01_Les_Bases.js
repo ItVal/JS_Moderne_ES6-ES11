@@ -39,3 +39,9 @@ const myDefaultParamsFunction = function(i, j=5) { //j'ai déjà initialisé mon
 //Lors de son appel, on aura juste bésoin d'entréer la valeur d'un seul paramètre car l'autre a déjà une valeur par defaut
 const res = myDefaultParamsFunction(40);
 console.log(res);
+
+//Arrow function
+const arrowFunction = () => console.log("hello arrow function");
+
+//appellons notre arrow function
+arrowFunction();
