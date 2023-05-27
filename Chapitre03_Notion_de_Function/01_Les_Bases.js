@@ -19,3 +19,13 @@ const myParamsFunction = function(x, y) {
 }
 // pour une function avec des paramètre, il faut passé les valeurs de paramètre lors de son appel
 myParamsFunction(4, 10);
+
+//fonction qui retourne une valeur
+const myReturntFunction = function(a, b, c){
+    const somme = a+b+c;
+    return somme; //ici on retourne la valeur se trouvant dans notre variable somme
+}
+
+//appellons la en conservant cette valeur dans un autre valeur pour nous aidé de l'utiliser plus tard (l'affiché par exemple) 
+const myResult = myReturntFunction(12, 13, 14);
+console.log(myResult); //affichage de la valeur que nous retourne notre function.
