@@ -50,4 +50,13 @@ const arrowFunction1Argument = nom => console.log("hello", nom) //vu qu'on a qu'
 //appellons notre arrow function
 arrowFunction1Argument ("Valentin Nas");
 
+//Arrow function avec un plusieurs paramètres et plusieurs lignes de code
+
+const arrowFunctionPlusArguments = (k, l, j) => {
+    const soustraction = k-l-j;
+    return soustraction;
+}
+//appellons notre arrow function
+const result = arrowFunctionPlusArguments (100, 2, 40);
+console.log(result);
 
