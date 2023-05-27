@@ -42,6 +42,12 @@ console.log(res);
 
 //Arrow function
 const arrowFunction = () => console.log("hello arrow function");
-
 //appellons notre arrow function
 arrowFunction();
+
+//Arrow function avec un seul paramètre
+const arrowFunction1Argument = nom => console.log("hello", nom) //vu qu'on a qu'un seul paramère, on peut ou n'est pas mettre notre argument dans une parantèse.
+//appellons notre arrow function
+arrowFunction1Argument ("Valentin Nas");
+
+
