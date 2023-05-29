@@ -2,6 +2,14 @@
 
 //structure
 const myCallBackFunction = (callbackFunct) =>{
+    //implémenter votre suite d'instruction
+
     let number = 40;
     callbackFunct(number);
 }
+
+//Qand il faut appelé maintenant
+myCallBackFunction ((arg) =>{
+    //implémenter votre suite d'instruction
+    console.log(arg);  //affiche 40 comme resultat
+})
