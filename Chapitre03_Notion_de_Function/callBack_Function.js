@@ -13,3 +13,10 @@ myCallBackFunction ((arg) =>{
     //implémenter votre suite d'instruction
     console.log(arg);  //affiche 40 comme resultat
 })
+
+//Essayons de comprendre avec l'utilisation de forEach
+let tab = ["Val", "Nas", "Roy", "Safi"]
+
+tab.forEach((etudiant, index) => {
+    console.log(index, etudiant);
+})
