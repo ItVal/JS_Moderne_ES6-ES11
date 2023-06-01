@@ -14,3 +14,7 @@ console.log(complexeSelect);
 //obtenir la ref d'un element via le navigateur
 const refNav = document.querySelector('body > h1:nth-child(2)')
 console.log(refNav);
+
+//selection multiple des élements : querySelectorAll
+const params = document.querySelectorAll('p') //on selection toutes les bases p
+console.log(params);
