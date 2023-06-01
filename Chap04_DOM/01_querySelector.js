@@ -18,3 +18,6 @@ console.log(refNav);
 //selection multiple des élements : querySelectorAll
 const params = document.querySelectorAll('p') //on selection toutes les bases p
 console.log(params);
+
+//selection d'element dans le NodeList
+console.log(params[0]); 
