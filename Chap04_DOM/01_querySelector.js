@@ -11,4 +11,6 @@ console.log(specificSelect);
 const complexeSelect = document.querySelector("div.err");
 console.log(complexeSelect);
 
-//
+//obtenir la ref d'un element via le navigateur
+const refNav = document.querySelector('body > h1:nth-child(2)')
+console.log(refNav);
