@@ -12,3 +12,6 @@ console.log(myParams);
 //alors pour avoir accès à ces élements, on doit passé par l'utilisation des indices
 console.log(myParams[0]); //affiche le premier élément de la liste
 console.log(myParams[1]); //affiche le deuxième élément de la liste
+
+//getElement by tag name
+const tagName = document.getElementsByTagName('div');
