@@ -28,3 +28,4 @@ params.forEach((para) => console.log(para));
 //selectionner toutes les classes
 const allClasses = document.querySelectorAll('err');
 console.log(allClasses);
+
