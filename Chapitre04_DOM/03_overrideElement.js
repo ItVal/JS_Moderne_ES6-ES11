@@ -20,5 +20,8 @@ paras.forEach((params) =>
 //Modification de balise avec innerHtml
 const newBalise = document.querySelector('.contenu');
 newBalise.innerHTML += '<h2>Je suis heureux d être ici'; //crée une nouvelle balise h2 au sein de la div ayant comme class .contenu
-
 console.log(newBalise);
+
+//Simulation des données
+const tab = ['Val', 'Nas', 'Gloire'];
+tab.forEach((newpar) => (newBalise.innerHTML += `<h3>${newpar}</h3>)`));
