@@ -9,10 +9,16 @@ console.log(para.innerText); // notre balise p n'a plus bonjour le monde comme c
 //Ajouter du contenu sur ce même paragraphe sans pour autant perdre l'ancien
 para.innerText += ', Merci val pour ce petit tuto';
 
-//Modification de tous les paragraphes
+//Modification de contenus tous les paragraphes avec querySelectorAll
 const paras = document.querySelectorAll('p');
 paras.forEach((params) =>
 	console.log(
 		(params.innerText += ', Nous ajoutons les element dans tous les paramètres')
 	)
 );
+
+//Modification de balise avec innerHtml
+const newBalise = document.querySelector('.contenu');
+newBalise.innerHTML += '<h2>Je suis heureux d être ici'; //crée une nouvelle balise h2 au sein de la div ayant comme class .contenu
+
+console.log(newBalise);
