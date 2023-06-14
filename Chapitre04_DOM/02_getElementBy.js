@@ -15,3 +15,4 @@ console.log(myParams[1]); //affiche le deuxième élément de la liste
 
 //getElement by tag name
 const tagName = document.getElementsByTagName('div');
+console.log(tagName); //affiche les éléments de la première valise div
