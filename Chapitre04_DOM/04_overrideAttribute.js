@@ -10,3 +10,6 @@ mylink.setAttribute('href', 'https://wmdrc.org');
 //ajout de class sur les balises
 const myAddAttribute = document.querySelector('p');
 myAddAttribute.setAttribute('class', 'error'); //on vient d'ajouter sur la balise p une classe error
+
+//ajouter du syle sur notre paragraphe
+myAddAttribute.setAttribute('style', 'color:red');
