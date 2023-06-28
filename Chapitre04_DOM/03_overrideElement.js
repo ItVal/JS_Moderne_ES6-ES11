@@ -24,4 +24,4 @@ console.log(newBalise);
 
 //Simulation des données
 const tab = ['Val', 'Nas', 'Gloire'];
-tab.forEach((newpar) => (newBalise.innerHTML += `<h3>${newpar}</h3>)`));
+tab.forEach((newpar) => (newBalise.innerHTML += `<h3>${newpar}</h3>)`)); //crée 3 h3 de ces 3 éléments se trouvant dans ce tableau.
